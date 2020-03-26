@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ro.andrei.helloworld">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.RetrofitTest"
+            android:label="@string/title_activity_retrofit_test"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.CardViewActivity"
+            android:label="@string/title_activity_card_view"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".activities.CardViewTest"
+            android:label="@string/title_activity_card_view_test"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".TabbedActivity"
+            android:label="@string/title_activity_tabbed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.DrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.HelloFragmentsActivity"
+            android:label="@string/title_activity_hello_fragments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.TestTabbedActivity"
+            android:label="@string/title_activity_test_tabbed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.DrawerTestAActivity"
+            android:label="@string/title_activity_drawer_test_a"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Course5Act1B"
+            android:label="@string/title_activity_course5_act1_b"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Course5Act1A"
+            android:label="@string/title_activity_course5_act1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Course5Challange1B"
+            android:label="@string/title_activity_course5_challange1_b"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Course5Challenge1A"
+            android:label="@string/title_activity_course5_challenge1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.FragmentTestActivity"
+            android:label="TestActivity" />
+
+        <service android:name=".FirebaseImplementation">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_menu_manage" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+    </application>
+
+</manifest>

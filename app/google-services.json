@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "160850438837",
+    "firebase_url": "https://helloworldgaf.firebaseio.com",
+    "project_id": "helloworldgaf",
+    "storage_bucket": "helloworldgaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160850438837:android:8b7ad6652b66a1d1",
+        "android_client_info": {
+          "package_name": "ro.andrei.helloworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160850438837-se4l5jnjqfo7dj694tvcm4tmqvsfu93d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ro.andrei.helloworld",
+            "certificate_hash": "e0da4356b9af656319507f501a95374258bab25e"
+          }
+        },
+        {
+          "client_id": "160850438837-2u55cn1jl986rpd4qhf5fvjr4lu6npqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFcNJPZnivXcGL46I7Dwt6Un8hb6J3tQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160850438837-2u55cn1jl986rpd4qhf5fvjr4lu6npqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
